@@ -41,7 +41,7 @@
 - 두 변수 사이에 관계의 정도를 나타내는 수치
 - [-1, 1] 사이의 값을 가지며, -1에 가까울 수록 음의 상관관계에 가깝고, +1에 가까울 수록 같은 데이터라고 볼 수 있다. 0에 가까울 수록 둘 사이의 관계가 없다.
 
-![alt text](상관관계.png)
+![상관관계](https://private-user-images.githubusercontent.com/139729135/428409420-31501230-91e2-48f1-be29-bca750c8904a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNTA5NTgsIm5iZiI6MTc0MzM1MDY1OCwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4NDA5NDIwLTMxNTAxMjMwLTkxZTItNDhmMS1iZTI5LWJjYTc1MGM4OTA0YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQxNjA0MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMjRhOGE3Mjg0YTQ5MzMwYTE0MjA5MjM3ZTc4N2QzMGJmYzUwZjg3YzU3MjE1YjAwNGU2OTVhNzdhMjIyYTgyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.LCNJk1O8LU_pXpQf_667MNBtFqv5B2gath8uqFwmBRQ)
 
 #### 장점
 - 간단하고 직관적
@@ -61,7 +61,7 @@
 - 두 확률 변수 간 의존성을 나타내는 척도
 - 두 변수간 의존성이 클 경우 해당 변수를 선택
 
-![alt text](상호정보량.png)
+![상호정보량](https://private-user-images.githubusercontent.com/139729135/428409421-007ae201-efa8-4c81-a4d4-8d48a7849558.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDMzNTA5NTgsIm5iZiI6MTc0MzM1MDY1OCwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4NDA5NDIxLTAwN2FlMjAxLWVmYTgtNGM4MS1hNGQ0LThkNDhhNzg0OTU1OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMFQxNjA0MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hN2NmNjNmZmM5YzJkZGQzYThjMjU5MDdmNzhhNTQ5YThjZTEwMDliZWI0OGIxOGJjYzcxYzUxM2YyNmUxZDExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.iCSFKi9vPf0ubMgZwptfagG490UEVW4UucY3SoAa-ho)
 
 - 교집합 부분이 상호정보량.
 - 두 집합의 합이 상관관계에 대한 엔트로피
