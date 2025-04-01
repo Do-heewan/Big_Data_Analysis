@@ -149,10 +149,14 @@
 
 ### $Information \ Gain \ Ratio = \frac{IG}{IV} = \frac{Information \ Gain}{Intrinsic \ Value} = - \frac{\displaystyle\sum_{j=1}^{C} p_j log p_j}{\displaystyle\sum_{i=1}^{N} p_i log p_i}$
 
+<br>
+
 **Instrinsic Value**
 - 특정 지표로 분기했을 때 생성되는 가지의 수에 대한 엔트로피 값
 
 ### $Instrinsic Value(IV) = -\displaystyle\sum_{i=1}^{N}P_jlogp_i$
+
+<br>
 
 **Information Gain과 Information Gain Ratio 비교**
 
