@@ -23,7 +23,7 @@
 
 **수학적 정의**
 
-### $$I(x) = -log_2P(x)$$
+### $I(x) = -log_2P(x)$
 
 >$P(x)$: 사건 x가 발생할 확률 <br>
 >$I(x)$: 사건 x가 발생하였을 때 그 사건이 주는 정보의 양
@@ -44,7 +44,7 @@
 
 **수학적 정의**
 
-### $$H(x) = E[I(x)] = - \sum P(x_i)log_2P(x_i)$$
+### $H(x) = E[I(x)] = - \sum P(x_i)log_2P(x_i)$
 
 >$P(x_i)$ : 사건 $x_i$가 발생할 확률 <br>
 >$H(x)$ : 확률변수 x의 엔트로피
@@ -79,8 +79,7 @@
 - 즉, 분할을 통해 얼마만큼 정보를 얻었는가를 계산하는 것
 
 **수학적 정의**
-
-### $$Information \ Gain = H(부모) - H(자식)$$
+### $Information \ Gain = H(부모) - H(자식)$
 
 ![정보이득](https://private-user-images.githubusercontent.com/139729135/428827726-0dc19955-2167-44f7-92c5-20a622fdfca3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0Njk1NzgsIm5iZiI6MTc0MzQ2OTI3OCwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODI3NzI2LTBkYzE5OTU1LTIxNjctNDRmNy05MmM1LTIwYTYyMmZkZmNhMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwMTAxMThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OWIyYTMyMDA4MWZlNDhiMzEzYWU3YjkxN2E3NDU5NTkzNTllOGJhYzRlOTdkN2VhNTM4OWNiMTUyMDc4ZmQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.TLIxzXsnqvzovggXl0Zjc4IwXaQMzLPhpZ5CG6X9KNM)
 
@@ -148,12 +147,12 @@
 - Information Gain Ratio의 단점 중 하나인 분할 수에 따른 정보이득의 편향을 보완하기 위해 개발한 방법
 - Information Gain Ratio는 특징 분할 후의 엔트로피 감소를 특징의 분할 정도로 나눈 값으로 계산
 
-$$Information \ Gain \ Ratio = \frac{IG}{IV} = \frac{Information \ Gain}{Intrinsic \ Value} = - \frac{\displaystyle\sum_{j=1}^{C} p_j log p_j}{\displaystyle\sum_{i=1}^{N} p_i log p_i}$$
+$Information \ Gain \ Ratio = \frac{IG}{IV} = \frac{Information \ Gain}{Intrinsic \ Value} = - \frac{\displaystyle\sum_{j=1}^{C} p_j log p_j}{\displaystyle\sum_{i=1}^{N} p_i log p_i}$
 
 **Instrinsic Value**
 - 특정 지표로 분기했을 때 생성되는 가지의 수에 대한 엔트로피 값
 
-$$Instrinsic Value(IV) = -\displaystyle\sum_{i=1}^{N}P_jlogp_i$$
+$Instrinsic Value(IV) = -\displaystyle\sum_{i=1}^{N}P_jlogp_i$
 
 **Information Gain과 Information Gain Ratio 비교**
 
