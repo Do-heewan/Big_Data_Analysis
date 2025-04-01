@@ -147,12 +147,12 @@
 - Information Gain Ratio의 단점 중 하나인 분할 수에 따른 정보이득의 편향을 보완하기 위해 개발한 방법
 - Information Gain Ratio는 특징 분할 후의 엔트로피 감소를 특징의 분할 정도로 나눈 값으로 계산
 
-$Information \ Gain \ Ratio = \frac{IG}{IV} = \frac{Information \ Gain}{Intrinsic \ Value} = - \frac{\displaystyle\sum_{j=1}^{C} p_j log p_j}{\displaystyle\sum_{i=1}^{N} p_i log p_i}$
+### $Information \ Gain \ Ratio = \frac{IG}{IV} = \frac{Information \ Gain}{Intrinsic \ Value} = - \frac{\displaystyle\sum_{j=1}^{C} p_j log p_j}{\displaystyle\sum_{i=1}^{N} p_i log p_i}$
 
 **Instrinsic Value**
 - 특정 지표로 분기했을 때 생성되는 가지의 수에 대한 엔트로피 값
 
-$Instrinsic Value(IV) = -\displaystyle\sum_{i=1}^{N}P_jlogp_i$
+### $Instrinsic Value(IV) = -\displaystyle\sum_{i=1}^{N}P_jlogp_i$
 
 **Information Gain과 Information Gain Ratio 비교**
 
