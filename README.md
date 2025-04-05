@@ -4,7 +4,7 @@
 
 **울산대학교 IT융합학부 AI융합전공 3학년**
 
-![울산대학교](https://github.com/user-attachments/assets/7484c974-1285-4d1a-9f0d-c39b2b803a17)
+![울산대학교](https://github.com/user-attachments/assets/368600a7-4479-4e05-92ee-76c60d9d4d27)
 
 </div>
 
