@@ -5,7 +5,7 @@
 - 여러 개의 모델을 조합하여 더 강력하고 안정적인 예측 모델을 생성하는 기법
 - 개별 모델들이 서로 다른 학습 알고리즘을 사용 할 수도 있고, 동일한 알고리즘을 서로 다른 데이터로 학습하여 서로 다른 모델로써 활용할 수도 있다.
 
-![앙상블러닝정의](https://private-user-images.githubusercontent.com/139729135/428872966-6c473bfa-06d8-4386-887f-32ffd7ea287a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODExODAsIm5iZiI6MTc0MzQ4MDg4MCwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODcyOTY2LTZjNDczYmZhLTA2ZDgtNDM4Ni04ODdmLTMyZmZkN2VhMjg3YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNDE0NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYzNhNmVhYmE5Zjg4MWNjNDQzOGYzNjhkNTFlNWJlOWU3ZTA4YmU3MTliZTA0MDM3MmE4YzA3OWJmZDcyMGYzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.l9kbhWpopqYW2H7J5NzJNXO7qxbcH0oXrgneQ_kz0lg)
+![앙상블러닝정의](https://github.com/user-attachments/assets/12aaacbe-4969-49e7-b29a-72771ffb250a)
 
 ### 목적
 - **편향과 분산을 줄이고 일반화 성능 향상**
