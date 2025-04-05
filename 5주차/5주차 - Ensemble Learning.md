@@ -44,7 +44,7 @@
 - 다양한 예측 모델들의 결과에 대해 투표하여 최종 예측을 수행하는 방법
 	>여러개의 예측 모델이 독립적으로 학습되고 예측을 수행 -> 각 모델의 예측 결과를 투표하여 다수결의 원칙에 따라 최종 예측 결정
 
-![보팅정의](https://private-user-images.githubusercontent.com/139729135/428882489-05646a1b-2035-4aae-a481-639b58cb9c63.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODQyMDYsIm5iZiI6MTc0MzQ4MzkwNiwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODgyNDg5LTA1NjQ2YTFiLTIwMzUtNGFhZS1hNDgxLTYzOWI1OGNiOWM2My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTA1MDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYmJjNzY3MzM4Nzc5NjczNGJkM2YyNzc5MmM3MzM2ZThhY2FlZTIzMDBjNGNlY2YxYzQzMjIyYmExOGYwNjhmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UPBk8zVsxp-SFNqqySR30WHpRXID501EwakcUpN5SQQ)
+![보팅정의](https://github.com/user-attachments/assets/8853ee97-0615-40d3-aa72-be561a208dc8)
 
 ### 특징
 - **예측 성능 향상** : 모델들 사이의 오류를 상쇄시킴으로써 예측 성능 향상
@@ -57,7 +57,7 @@
 ### Soft Voting
 - 각 모델의 예측 결과에 대한 확률 값을 평균하여 최종 예측을 수행하는 방식
 
-![하드소프트보팅](https://private-user-images.githubusercontent.com/139729135/428882900-c51cc24d-809c-42df-bcc8-81327c292594.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODQzNDMsIm5iZiI6MTc0MzQ4NDA0MywicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODgyOTAwLWM1MWNjMjRkLTgwOWMtNDJkZi1iY2M4LTgxMzI3YzI5MjU5NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTA3MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMTI5MTEwNmIwYTIyNTY5NmI1ODUwZDUzY2RiM2U0MjgyZmJkM2VmMDhmNDA2N2FmYWVkZmQyNTMyODNjODZiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ugqZOCy8XUEuxUq9509vLQE9PK9ytUM4DEUIGnzq4Wk)
+![하드소프트보팅](https://github.com/user-attachments/assets/3a4fb1d2-46cc-49b1-806b-b3d3cc606430)
 
 <br>
 
@@ -80,7 +80,7 @@
 - 기존 Voting과는 다르게 **동일한 알고리즘으로 여러 분류기를 만든 후** 보팅으로 최종 결과를 결정한다는 차이
 >Bootstrap 랜덤 샘플링으로 각각이 다른 데이터셋 -> 동일한 알고리즘으로 학습 하여도 데이터셋이 다르기에 각 모델은 성능이 다르다는 점을 이용.
 
-![배깅](https://private-user-images.githubusercontent.com/139729135/428883482-256c791f-8e47-4eba-9380-86d3512c9db7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODQ0ODcsIm5iZiI6MTc0MzQ4NDE4NywicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODgzNDgyLTI1NmM3OTFmLThlNDctNGViYS05MzgwLTg2ZDM1MTJjOWRiNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTA5NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYmM1OWY2MDFiNzhmNzRmYWFhMWFkZjEyNjUxMzZhZDI4MjZmMmJlZmEyMzM3YjA3MjY0MDNhNDI3NWI1MmVkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CGgi4NTWkPPXW3woWTB0hLx_61qzVadi66vaBLz2doA)
+![배깅](https://github.com/user-attachments/assets/b2cfe661-7b44-4c51-a912-f599ca01bff3)
 
 ### 특징
 - 랜덤 샘플링과 앙상블 방법을 통해 모델의 분산을 줄이고, 일반화 성능을 향상시킴
@@ -119,7 +119,7 @@
 	2. 랜덤 특성 선택 및 모델 학습 : 각 의사결정트리의 특성을 랜덤하게 하여 각 트리 모델 간 상관관계를 줄이고 다양성을 높여 학습
 	3. 앙상블 예측 : 모든 트리의 예측 결과를 조합하여 최종 결과 예측, 분류 문제의 경우 투표방식을 사용하며 회귀문제의 경우 평균으로 계산
 
-![Random Forest](https://private-user-images.githubusercontent.com/139729135/428887849-93410ceb-79fb-419e-905d-088bd301ff43.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODU4MzMsIm5iZiI6MTc0MzQ4NTUzMywicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODg3ODQ5LTkzNDEwY2ViLTc5ZmItNDE5ZS05MDVkLTA4OGJkMzAxZmY0My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTMyMTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NDllYzI2OGM1NzY0MWY3ZGJmYzA1ODdiN2FhZDkzNTU2Yjk1YTg2YmE3ODE4MjQwODA3OTJjZjkzYzg2YTIzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.sg0PTwGfY42s1j7Ha1YlidZHsPA-E9GuhgN7NKT2-8E)
+![Random Forest](https://github.com/user-attachments/assets/5c361cd4-b16f-4819-8807-6612cdcafc91)
 
 ### 장점
 	- 결정 트리의 쉽고 직관적인 장점을 그대로 가지고 있음
@@ -140,7 +140,7 @@
 ### 정의 
 - 앙상블 학습의 한 종류로, **약한 모델(weak model)을 여러 개 결합하여 강한 모델(strong model)을 만드는 방법**
 
-![부스팅정의](https://private-user-images.githubusercontent.com/139729135/428888245-01d86d9c-ba33-4c1f-bb3c-78adeee5dbf7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODU5NTcsIm5iZiI6MTc0MzQ4NTY1NywicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODg4MjQ1LTAxZDg2ZDljLWJhMzMtNGMxZi1iYjNjLTc4YWRlZWU1ZGJmNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTM0MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MmE4ZDI5MmM3Yzk2MDdjMjA2NjliYzhlN2YxZjM4MzIxZmM0ODRlNjE2YzNiMWYwMjM3MTNkYTBhN2VlMmYwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rTiQmECJ0_XCIY5flSzISc71UonoGsBaAe9Kx_pjtp8)
+![부스팅정의](https://github.com/user-attachments/assets/273fd7ab-a4b6-456f-8782-682489254720)
 
 ### 특징
 - 학습 데이터에서 잘못 예측된 샘플에 집중하여 반복적으로 학습하여 각각의 약한 모델이 상호 보완하도록 학습함
@@ -176,7 +176,7 @@
 	3. 데이터 Resampling 및 약한 모델 학습 : 순차적으로 약한 모델 학습
 	4. 최종 예측 : 모든 약한 학습기의 예측 결과를 결합하여 최종 예측 수행
 
-![아다부스트](https://private-user-images.githubusercontent.com/139729135/428891831-b3310b76-dc8e-467b-b6a7-0ad9a2abeb98.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODY5NDksIm5iZiI6MTc0MzQ4NjY0OSwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODkxODMxLWIzMzEwYjc2LWRjOGUtNDY3Yi1iNmE3LTBhZDlhMmFiZWI5OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTUwNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yM2ExMjVmNDk4NjYxYzdlZmI3NGM3OTFjNDBlYmMxYzBkNmM4MDA4ZjNlYmIzOWU5MjBkNzczZWNhMDgyOGM2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Z9EWuO-FUMBRU-ZBSQmqzkCCaZX5b4MIew1NTksk9a8)
+![아다부스트](https://github.com/user-attachments/assets/1980ed91-12f0-46f8-9912-840313de7622)
 
 ~~[**Ada Boost 동작 방식 예제**]()~~
 
@@ -198,7 +198,7 @@
 ### 정의
 - 부스팅 알고리즘의 한 종류로 이전 학습기의 오차를 보완하여 모델을 강화하는 방식으로 동작하는 알고리즘
 
-![Gradient Boost](https://private-user-images.githubusercontent.com/139729135/428892869-37892cd2-e410-4449-bad1-0db80433d323.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODcxMjgsIm5iZiI6MTc0MzQ4NjgyOCwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODkyODY5LTM3ODkyY2QyLWU0MTAtNDQ0OS1iYWQxLTBkYjgwNDMzZDMyMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTUzNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MjE4MmFkNmZiNDZmNjg2ODEyYjAxZDc0YWUyOWMzOWEwNGZkY2YxZTM0MjUxOTlhMzM3YWRiOTI2OTAyZTAwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZkXEYTY7MtbgN3XMCi5p0sgn8HRO59F7iqTKNjAHH-g)
+![Gradient Boost](https://github.com/user-attachments/assets/1a0f4d6c-7e2d-4ccd-831e-8f1c5c07b99b)
 
 ### 특징
 - **이전 학습기의 예측 오차에 집중하여 학습**
@@ -211,9 +211,9 @@
 		2-2. 잔차를 예측하는 모델 학습
 		2-3. 모델 업데이트
 
-![Gradient Boosting 동작 방식](https://private-user-images.githubusercontent.com/139729135/428893083-0d64a4d3-a398-4c3f-99d8-8572ec9c94c2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODcxNTksIm5iZiI6MTc0MzQ4Njg1OSwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODkzMDgzLTBkNjRhNGQzLWEzOTgtNGMzZi05OWQ4LTg1NzJlYzljOTRjMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTU0MTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02Yzk3NzkzMThlMzRhOGQyM2Y5ODY5M2EwMzhlOGJmMzQ2ZGU5N2FmOGZiZGY3NmI4ZWI1ZjhmYjRkMDFiZTZkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.W-AvDRL0sY8pJRwxetfSsKvZbyEtkoU40FxLJ7BXYmI)
+![Gradient Boosting 동작 방식](https://github.com/user-attachments/assets/15657d0d-e349-4a64-863f-2e004fac9782)
 
-모델이 loss에 미치는 영향?
+
 
 [**Gradient Boostring 동작 방식 예제**](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/Boosting-Gradient_Boost.ipynb)
 
