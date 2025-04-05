@@ -1,12 +1,6 @@
 # 💻빅데이터 분석
 
-<div align = "center">
 
-**울산대학교 IT융합학부 AI융합전공 3학년**
-
-![울산대학교](https://github.com/user-attachments/assets/fc34601d-1a0f-41f2-8af6-44ca1d0039d6)
-
-</div>
 
 ---
 
