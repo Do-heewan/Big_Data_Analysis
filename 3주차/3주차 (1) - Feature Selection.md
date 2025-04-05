@@ -41,7 +41,7 @@
 - 두 변수 사이에 관계의 정도를 나타내는 수치
 - [-1, 1] 사이의 값을 가지며, -1에 가까울 수록 음의 상관관계에 가깝고, +1에 가까울 수록 같은 데이터라고 볼 수 있다. 0에 가까울 수록 둘 사이의 관계가 없다.
 
-![상관관계](https://private-user-images.githubusercontent.com/139729135/428601761-cea1822c-0142-40f2-9868-f727c5caa4bd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0MjI1MzIsIm5iZiI6MTc0MzQyMjIzMiwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4NjAxNzYxLWNlYTE4MjJjLTAxNDItNDBmMi05ODY4LWY3MjdjNWNhYTRiZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMVQxMTU3MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wYmQwOGQ4ZGIyMzQ0Mzg0MDA5N2YyZDkyNWI2N2MxODg1YjBiNDFlYTI1ZWJmOTVlYWJjMGU5YTRiMjAyYjViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.nho8sn338tcnXkBaDbq5LDRbb6PiNn6s2A4ql0bQWV4)
+![상관계수](https://github.com/user-attachments/assets/5333c089-3d75-400e-8ba0-9c26e1aa8f78)
 
 #### 장점
 - 간단하고 직관적
@@ -61,7 +61,7 @@
 - 두 확률 변수 간 의존성을 나타내는 척도
 - 두 변수간 의존성이 클 경우 해당 변수를 선택
 
-![상호정보량](https://private-user-images.githubusercontent.com/139729135/428601765-02292958-7cf7-41b5-b292-b93fbea909b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0MjI1MzIsIm5iZiI6MTc0MzQyMjIzMiwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4NjAxNzY1LTAyMjkyOTU4LTdjZjctNDFiNS1iMjkyLWI5M2ZiZWE5MDliNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzMxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMzMVQxMTU3MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05OTY2MTMwNTYzNGYxNjY1MDQ1YjI5ODY3ZTIzZGE5MjNlMDI4Y2JhMTgxOTc5YjI5MGJiZTM0Y2E4MmY0YjlkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.-ynM1QXUGRPLbT0dXd43sNG3wIlLgXxpBCUl8FbXWWk)
+![상호정보량](https://github.com/user-attachments/assets/810a2616-a450-4f6c-ba5a-5402f35a6c64)
 
 - 교집합 부분이 상호정보량.
 - 두 집합의 합이 상관관계에 대한 엔트로피
