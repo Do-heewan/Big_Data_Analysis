@@ -1,5 +1,13 @@
 # 💻빅데이터 분석
 
+<div align = "center">
+
+**울산대학교 IT융합학부 AI융합전공 3학년**
+
+![울산대학교](https://github.com/user-attachments/assets/7484c974-1285-4d1a-9f0d-c39b2b803a17)
+
+</div>
+
 ---
 
 ### 2주차 - [PCA](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/2%EC%A3%BC%EC%B0%A8/2%EC%A3%BC%EC%B0%A8%20-%20PCA.md) & [PCA 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/2%EC%A3%BC%EC%B0%A8/PCA.ipynb)
@@ -10,4 +18,4 @@
 
 ### 4주차 - [Decision Tree](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/4%EC%A3%BC%EC%B0%A8/4%EC%A3%BC%EC%B0%A8%20-%20Decision%20Tree.md)
 
-### 5주차 - [Ensemble Learining](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/5%EC%A3%BC%EC%B0%A8%20-%20Ensemble%20Learning.md)
+### 5주차 - [Ensemble Learining](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/5%EC%A3%BC%EC%B0%A8%20-%20Ensemble%20Learning.md) & [Ensemble Learning 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/Ensemble_Learning.ipynb)
