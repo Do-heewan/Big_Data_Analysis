@@ -65,7 +65,7 @@
 
 <br>
 
-[**Voting Model 실습**]()
+[**Voting Model 실습**](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/Voting.ipynb)
 
 ---
 
@@ -129,7 +129,7 @@
 ### 단점
 	- 하이퍼파라미터가 많아서 튜닝을 위한 시간이 많이 소요됨
 
-[**Random Forest 실습**]()
+[**Random Forest 실습**](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/Bagging.ipynb)
 
 ---
 
@@ -178,7 +178,7 @@
 
 ![아다부스트](https://private-user-images.githubusercontent.com/139729135/428891831-b3310b76-dc8e-467b-b6a7-0ad9a2abeb98.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM0ODY5NDksIm5iZiI6MTc0MzQ4NjY0OSwicGF0aCI6Ii8xMzk3MjkxMzUvNDI4ODkxODMxLWIzMzEwYjc2LWRjOGUtNDY3Yi1iNmE3LTBhZDlhMmFiZWI5OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMVQwNTUwNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yM2ExMjVmNDk4NjYxYzdlZmI3NGM3OTFjNDBlYmMxYzBkNmM4MDA4ZjNlYmIzOWU5MjBkNzczZWNhMDgyOGM2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Z9EWuO-FUMBRU-ZBSQmqzkCCaZX5b4MIew1NTksk9a8)
 
-[**Ada Boost 동작 방식 예제**]()
+~~[**Ada Boost 동작 방식 예제**]()~~
 
 ### 장점
 	- 과적합의 영향을 덜 받음
@@ -215,7 +215,7 @@
 
 모델이 loss에 미치는 영향?
 
-[**Gradient Boostring 동작 방식 예제**]()
+[**Gradient Boostring 동작 방식 예제**](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/Boosting-Gradient_Boost.ipynb)
 
 ### 장점
 	- 구현이 쉽다
@@ -246,7 +246,7 @@
 		2-1. 각 Root/Leaf에 대해 Similarity Score 계산
 		2-2. Gain 계산 및 가장 큰 값으로 분기
 
-[**XGBoost 실행 과정 예제**]()
+[**XGBoost 실행 과정 예제**](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/Boosting-XGBoost.ipynb)
 
 ### Pruming (가지치기)
 - Depth가 깊어질 수록 Training Data에 집중적으로 Fitting됨 -> Over Fitting 발생
