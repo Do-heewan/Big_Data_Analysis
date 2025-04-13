@@ -4,6 +4,8 @@
 
 ---
 
+### 1주차 - [데이터 분석 기본](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/1%EC%A3%BC%EC%B0%A8/1%EC%A3%BC%EC%B0%A8.md)
+
 ### 2주차 - [PCA](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/2%EC%A3%BC%EC%B0%A8/2%EC%A3%BC%EC%B0%A8%20-%20PCA.md) & [PCA 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/2%EC%A3%BC%EC%B0%A8/PCA.ipynb)
 
 ### 3주차 - [TSNE](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/3%EC%A3%BC%EC%B0%A8/3%EC%A3%BC%EC%B0%A8%20-%20TSNE.md) & [TSNE 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/3%EC%A3%BC%EC%B0%A8/TSNE.ipynb)
