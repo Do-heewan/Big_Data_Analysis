@@ -15,3 +15,5 @@
 ### 5주차 - [Ensemble Learining](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/5%EC%A3%BC%EC%B0%A8%20-%20Ensemble%20Learning.md) & [Ensemble Learning 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/5%EC%A3%BC%EC%B0%A8/Ensemble_Learning.ipynb)
 
 ### 6주차 - [Evaluation Metrics](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/6%EC%A3%BC%EC%B0%A8/6%EC%A3%BC%EC%B0%A8%20-%20Evaluation_Metrics.md)
+
+### 6주차 - [데이터 분석 실습 - 신용카드 사기 예측](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/6%EC%A3%BC%EC%B0%A8/credit_card.ipynb)
