@@ -18,4 +18,6 @@
 
 ### 6주차 - [Evaluation Metrics](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/6%EC%A3%BC%EC%B0%A8/6%EC%A3%BC%EC%B0%A8%20-%20Evaluation_Metrics.md)
 
-### 6주차 - [데이터 분석 실습 - 신용카드 사기 예측](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/6%EC%A3%BC%EC%B0%A8/credit_card.ipynb)
+### 6주차 - [신용카드 사기 예측 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/6%EC%A3%BC%EC%B0%A8/credit_card.ipynb)
+
+### 7주차 - [신용카드 사용자 연체 예측 프로젝트](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/7%EC%A3%BC%EC%B0%A8/practice.ipynb) & [프로젝트 진행 과정](https://do-heewan.tistory.com/153)
