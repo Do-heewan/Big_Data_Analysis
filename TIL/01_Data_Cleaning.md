@@ -166,7 +166,7 @@ row를 삭제하는 것이 아니라 column 삭제
 3. 결측치 모델을 사용하여 대체
     - KNN, 결정 트리, 랜덤 포레스트, 신경망 등
 
-### [결측치 제거 및 대체 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/01_Data_Clining/Imputation.ipynbb)
+### [결측치 제거 및 대체 실습](https://github.com/Do-heewan/Big_Data_Analysis/blob/main/01_Data_Clining/Imputation.ipynb)
 
 ---
 
