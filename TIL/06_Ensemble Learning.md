@@ -14,7 +14,7 @@
 
 ### 유형
 - 앙상블 학습은 크게 **4가지** 방식으로 구성
-	> 보팅(Voting), 배깅(Bagging), 부스팅(Boosting), 스태킹(Stacking)
+	> 보팅(Voting), 배깅(Bagging), 부스팅(Boosting), ~~스태킹(Stacking)~~
 
 ### 장점
 1. 예측 성능 향상 
