@@ -27,12 +27,12 @@ $Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$
 
 <br>
 
-||||
-|----|----------------|----|
-|TP|True Positive|실제 값 양성 + 예측 값 양성|
-|TN|True Negative|실제 값 양성 + 예측 값 음성|
-|FP|False Positive|실제 값 음성 + 예측 값 양성|
-|FN|False Negative|실제 값 음성 + 예측 값 음성|
+|실제 라벨|예측 결과|결과|설명|
+|------|--------|-----|------|
+|Positive|Positive|TP|True Positive : Positive를 예측하였고, True이다.|
+|Negative|Positive|FP|False Positive : Positive를 예측하였고, False이다.|
+|Positive|Negative|FN|False Negative : Negative를 예측하였고, False이다.|
+|Negative|Negative|TN|True Negative : Negative를 예측하였고, True이다.|
 
 <br>
 
